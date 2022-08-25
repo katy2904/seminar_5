@@ -17,4 +17,4 @@ for (int i = 0; i < size; i++)
     if (array[i] % 2 == 0) count++;
 }
 
-Console.WriteLine($"В массиве [ {String.Join(", ", array)} ] положительных чисел - {count}");
+Console.WriteLine($"В массиве [ {String.Join(", ", array)} ] четных чисел - {count}");
